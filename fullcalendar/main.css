@@ -1,5 +1,11 @@
 
 /* classes attached to <body> */
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 100;
+}
 
 body, html{
   min-width: fit-content;
@@ -310,6 +316,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
     margin: 0;
     margin-top: 10px;
     padding: 20px;
+    font-weight: 700;
   }
 .fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
     margin-left: .75em; /* space between */
@@ -444,6 +451,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
     display: inline-block; /* x-browser for when sticky (when multi-tier header) */
     padding: 2px 4px;
     font-size: 2.7em;
+    font-weight: 500;
   }
 .fc .fc-bg-event,
   .fc .fc-non-business,
