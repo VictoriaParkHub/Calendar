@@ -7,25 +7,16 @@
     <script>
     	document.addEventListener('DOMContentLoaded', function() {
         	var calendarEl = document.getElementById('calendar');
-
-            /* Create function to initialize the correct view */
-            function mobileCheck() {
-                if (window.innerWidth >= 768 ) {
-                    return false;
-                } else {
-                    return true;
-                }
-            };
-
             var calendar = new FullCalendar.Calendar(calendarEl, {
+                
                 // Tool Bar 목록 document : https://fullcalendar.io/docs/toolbar
                 headerToolbar: {
-                    left: 'prevYear,prev,next,nextYear today',
+                    left: 'prev,next',
                     center: 'title',
-                    right: 'dayGridMonth,dayGridWeek,dayGridDay'
+                    right: 'today,dayGridMonth'
                 },
 
-                contentHeight: 1200,
+                contentHeight: 1500,
 
                 selectable: true,
                 selectMirror: true,

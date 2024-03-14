@@ -6,7 +6,7 @@ body, html{
 }
 
 .title{
-  font-size: 2.5em;
+  font-size: 3.5em;
   text-align: center;
   padding-top: 1em;
   padding-bottom: 0.5em;
@@ -258,12 +258,13 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 .fc .fc-button .fc-icon {
     vertical-align: middle;
-    font-size: 1.5em; /* bump up the size (but don't make it bigger than line-height of button, which is 1.5em also) */
+    font-size: 1.7em; /* bump up the size (but don't make it bigger than line-height of button, which is 1.5em also) */
   }
 .fc .fc-button-group {
     position: relative;
     display: inline-flex;
     vertical-align: middle;
+    font-size: 1.7em;
   }
 .fc .fc-button-group > .fc-button {
     position: relative;
@@ -301,13 +302,11 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
     align-items: center;
   }
 .fc .fc-toolbar.fc-header-toolbar {
-    margin-bottom: 1.5em;
-  }
-.fc .fc-toolbar.fc-footer-toolbar {
-    margin-top: 1.5em;
+    margin-bottom: 4em;
+    margin-top: 3em;
   }
 .fc .fc-toolbar-title {
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
     margin-top: 10px;
     padding: 20px;
@@ -444,7 +443,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-col-header-cell-cushion {
     display: inline-block; /* x-browser for when sticky (when multi-tier header) */
     padding: 2px 4px;
-    font-size: 2em;
+    font-size: 2.7em;
   }
 .fc .fc-bg-event,
   .fc .fc-non-business,
@@ -497,6 +496,7 @@ a.fc-event:hover {
 .fc-event .fc-event-main {
     position: relative;
     z-index: 2;
+    font-size: 3em;
   }
 /* dragging */
 /* ---------------------------------------------------------------------------------------------------- */
@@ -755,8 +755,8 @@ A HORIZONTAL event
 .fc .fc-daygrid-day-number {
     position: relative;
     z-index: 4;
-    padding: 4px;
-    font-size: 2em;
+    padding: 20px;
+    font-size: 2.7em;
   }
 .fc {
 
