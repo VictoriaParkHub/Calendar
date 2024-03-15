@@ -12,9 +12,9 @@ body, html{
 }
 
 .title{
-  font-size: 3.5em;
+  font-size: 2em;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0.5em;
   padding-bottom: 0.5em;
   font-weight: bold;
   background-color: #F1F3F4;
@@ -22,7 +22,8 @@ body, html{
 
 /* TODO: make fc-event selector work when calender in shadow DOM */
 .fc-not-allowed,
-.fc-not-allowed .fc-event { /* override events' custom cursors */
+.fc-not-allowed .fc-event { /* override events' custom cursors
+ */
   cursor: not-allowed;
 }
 
@@ -308,8 +309,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
     align-items: center;
   }
 .fc .fc-toolbar.fc-header-toolbar {
-    margin-bottom: 4em;
-    margin-top: 3em;
+    margin-bottom: 2em;
   }
 .fc .fc-toolbar-title {
     font-size: 3em;
@@ -504,7 +504,7 @@ a.fc-event:hover {
 .fc-event .fc-event-main {
     position: relative;
     z-index: 2;
-    font-size: 3em;
+    font-size: 2em;
   }
 /* dragging */
 /* ---------------------------------------------------------------------------------------------------- */
@@ -763,8 +763,8 @@ A HORIZONTAL event
 .fc .fc-daygrid-day-number {
     position: relative;
     z-index: 4;
-    padding: 20px;
-    font-size: 2.7em;
+    padding: 5px 10px;
+    font-size: 2.5em;
   }
 .fc {
 
