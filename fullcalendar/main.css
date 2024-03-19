@@ -504,7 +504,7 @@ a.fc-event:hover {
 .fc-event .fc-event-main {
     position: relative;
     z-index: 2;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 /* dragging */
 /* ---------------------------------------------------------------------------------------------------- */
